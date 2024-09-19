@@ -29,7 +29,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS, SASS, JAVASCRIPT, PYTHON, MongoDB, ReactJS,
+                  HTML, CSS, SASS, JAVASCRIPT,TYPESCRIPT PYTHON, MongoDB, ReactJS,
                   ExpressJS , NextJS, Shade cn, lucuid React, Tailwind ,Boostrap
                   , MUI, NodeJS, Git, AWS-basics, Linux-basics, Starpi{" "}
                 </b>
