@@ -20,7 +20,7 @@ import react_todo from "../../Assets/Projects/react-todo-list.png";
 import age_calc from "../../Assets/Projects/age-calculator.png";
 import pagination from "../../Assets/Projects/pagination.png";
 import mern_todo from "../../Assets/Projects/mern-todo.png";
-
+import super_board from "../../Assets/Projects/superBoard.png";
 function Projects() {
   return (
     <Container
@@ -35,6 +35,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={super_board}
+              isBlog={false}
+              title="SuperBoard onChain verification methods"
+              description="I will develop backend methods for Superboard, enabling secure on-chain NFT verification by integrating blockchain protocols, validating ownership, and ensuring authenticity through smart contracts and cryptographic techniques."
+              demoLink="https://ui-dev.superboard.xyz/quests"
+            />
+          </Col>
           <Col
             md={4}
             className="project-card">
@@ -49,7 +60,6 @@ interaction between the frontend and MongoDB database"
               demoLink="https://shik-movi-flex.netlify.app"
             />
           </Col>
-
           <Col
             md={4}
             className="project-card">
